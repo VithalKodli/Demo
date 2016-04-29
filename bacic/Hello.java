@@ -1,0 +1,17 @@
+class Hello 
+{
+	public static void main(char[] args) 
+	{
+		System.out.println("Hello char");
+		for (char c:args)
+		{
+        System.out.println(c);
+		}
+	}
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello String");
+		char z [] = {'a','b','c'};
+		main(z);
+	}
+}
